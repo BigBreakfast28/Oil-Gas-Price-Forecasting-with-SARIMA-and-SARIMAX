@@ -13,7 +13,7 @@ Compare the performance of univariate (SARIMA) vs multivariate (SARIMAX) approac
 Evaluate how incorporating external variables improves forecasting accuracy
 
 ## 12 Step Forecast Comparison 
-![Forecast](image/12step_forecast_comparison.JPG)
+![12 Step Forecast](images/12step_forecast_comparison.JPG)
 
 ## 🔍 Dataset
 The dataset includes:
