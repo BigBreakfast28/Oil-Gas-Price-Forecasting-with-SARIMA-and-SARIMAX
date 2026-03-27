@@ -11,14 +11,15 @@ The objective of this analysis is to:
 Model and forecast energy price trends
 Compare the performance of univariate (SARIMA) vs multivariate (SARIMAX) approaches
 Evaluate how incorporating external variables improves forecasting accuracy
-🔍 Dataset
 
+## 🔍 Dataset
 The dataset includes:
 
 Oil price data (e.g., WTI crude)
 Gasoline price data
 Time-indexed observations sourced from FRED
-⚙️ Methods
+
+## ⚙️ Methods
 Time series preprocessing (date alignment, handling frequency differences)
 Stationarity testing (ADF test)
 Differencing and transformation
@@ -26,7 +27,8 @@ Model development:
 SARIMA (Seasonal AutoRegressive Integrated Moving Average)
 SARIMAX (SARIMA with exogenous variables)
 Model evaluation using metrics such as MSE
-📊 Key Insights
+
+## 📊 Key Insights
 SARIMAX provides improved predictive performance when incorporating related external variables (e.g., oil → gas relationship)
 Time step selection and model configuration significantly impact forecasting accuracy
 Small differences in error metrics can still indicate meaningful model improvements
@@ -35,3 +37,7 @@ Python
 Pandas / NumPy
 Matplotlib
 Statsmodels
+
+## ⚙️ Model Comparison
+- SARIMA: Univariate model using historical data  
+- SARIMAX: Incorporates external variables (oil → gas relationship)  
