@@ -1,4 +1,8 @@
 # Oil-Gas-Price-Forecasting-with-SARIMA-and-SARIMAX
+
+## 📌 Problem Statement
+Energy price forecasting is critical for economic planning and decision-making. This project compares SARIMA and SARIMAX models to predict oil and gas prices using time series data.
+
 Time series forecasting of oil and gas prices using SARIMA and SARIMAX models on FRED data, with performance comparison and model evaluation.
 This project focuses on time series forecasting of oil and gas prices using classical statistical models, specifically SARIMA and SARIMAX, applied to publicly available data from the Federal Reserve Economic Data (FRED) database.
 
